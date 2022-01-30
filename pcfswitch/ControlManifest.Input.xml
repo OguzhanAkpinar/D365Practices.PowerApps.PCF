@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="pcfswitch" constructor="pcfswitch" version="0.0.1" display-name-key="pcfswitch" description-key="pcfswitch description" control-type="standard" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <property name="optionValue" display-name-key="optionValue" description-key="Option Value" of-type="TwoOptions" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/pcfswitch.css" order="1" />
+    </resources>
+  </control>
+</manifest>
